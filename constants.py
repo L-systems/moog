@@ -1,2 +1,5 @@
 WIDTH: int = 600
 HEIGHT: int = 450
+SCALE: int = 2
+W_WIDTH: int = WIDTH / SCALE
+W_HEIGHT: int = HEIGHT / SCALE
