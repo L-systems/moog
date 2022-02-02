@@ -63,8 +63,8 @@ def game_loop(condition: bool, renderer: pygame.Surface, window: pygame.Surface,
 
     if ring_particles: 
       for i, ring in sorted(enumerate(ring_particles), reverse=True): # [(x, y): location, initial_radius]
-        ring[1] += 0.8
-        if ring[1] > 30: 
+        ring[1] += 10
+        if ring[1] > 160: 
           ring_particles.pop(i)
         else: 
           pygame.draw.circle(window, (240, 20, 40), ring[0], ring[1], 1)
