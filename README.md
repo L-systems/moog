@@ -8,7 +8,7 @@ The goal of this program is to emulate the above with my current keyboard:
 
 ## What to do
 
-- [ ] Piano-ish layer
+- [x] Piano-ish layer (in version `1.0 - alpha`)
 - [ ] Drum layer
 - [ ] Metronome
 
